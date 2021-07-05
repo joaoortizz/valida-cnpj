@@ -21,14 +21,15 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/joaoortizz/valida-cnpj>
+$ git clone https://github.com/joaoortizz/valida-cnpj
 
 # Acesse a pasta do projeto no terminal/cmd
 
 # Na pasta raiz, execute a construção do container por meio do docker-compose
 $ docker-compose up --build
 
-# O servidor inciará na porta padrão:808 - acesse <http://localhost:808>
+# O servidor inciará na porta padrão:80 - acesse http://localhost:80, http://localhost ou http://127.0.0.1
+# O argumento CNPJ deve ser somente números
 ```
 
 ### 🛠 Tecnologias
